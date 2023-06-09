@@ -1,5 +1,4 @@
 import './public/css/style.css'
-import viteLogo from '/img/favicon-32x32.png'
 import mobile_divider from '/img/pattern-divider-mobile.svg'
 import desktop_divider from '/img/pattern-divider-desktop.svg'
 import dice from '/img/icon-dice.svg'

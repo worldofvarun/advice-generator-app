@@ -29,7 +29,7 @@ Try the application live at .
 
 ### Screenshot
 
-![Advice Generator App Screenshot](./public/img/Screenshot.png)
+![Advice Generator App Screenshot](https://i.ibb.co/tKSkGRV/Screenshot.png)
 
 ## Features
 

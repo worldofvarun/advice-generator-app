@@ -25,11 +25,12 @@ The challenge was to build a web application that generates random pieces of adv
 
 ### Live Demo
 
-Try the application live at .
+Try the application live at [click here](https://advice-generator-app-nu-taupe.vercel.app/).
 
 ### Screenshot
 
-![Advice Generator App Screenshot](https://i.ibb.co/tKSkGRV/Screenshot.png)
+![image](https://github.com/worldofvarun/advice-generator-app/assets/131743548/ed750217-ab52-447c-82e8-cca3ed20e02e)
+
 
 ## Features
 

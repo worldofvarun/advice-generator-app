@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+*,::after,::before{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+/* pre-declaration variables */
+:root{
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217,19%,24%);
+  --dark-blue: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-blue);
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: clamp(272px, 90%, 34rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--dark-grayish-blue);
+  padding: 3.4rem 0 0 0 ;
+  border-radius: 0.75rem;
+}
+
+.card .adivce-id{
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: var(--neon-green);
+  padding: 0.5rem;
+}
+
+.card .adivce{
+  width: 80%;
+  color: var(--light-cyan);
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.card .divider{
+  padding: 1rem;
+}
+
+.card .dice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  bottom: -1.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+}
+
+.dice:hover{
+  box-shadow: 0 0 1rem 0 var(--neon-green);
+}
+
+
